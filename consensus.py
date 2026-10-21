@@ -11,7 +11,6 @@ def consensusprof():
 	lol = newDNA2[0]
 	profile = {"A":[0]*len(lol),"C":[0]*len(lol),"T":[0]*len(lol),"G":[0]*len(lol)}
 	for j in newDNA2:
-		#please kill me
 		for k,i in zip(j,range(len(lol))):
 			if k == "A":
 				profile["A"][i] += 1
