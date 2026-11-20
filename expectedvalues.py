@@ -14,5 +14,4 @@ def expectedvalues():
 	expectedpopulation = n * 2
 	expected_values = (a/n + b/n + c/n + (d/n * 0.75) + (e/n * 0.5)) * expectedpopulation
 	return expected_values
-	print(data)
 print(expectedvalues())
